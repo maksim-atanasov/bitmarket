@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+}
+
+.button {
+    background-color: #36bbce;
+    text-decoration: none;
+    padding:20px 15px 15px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+        display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #A7BAE6;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #A7BAE6;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+        display: flex;
+        margin: 0px auto 0px auto;
+        max-width: 1100px;
+        justify-content: center;
+}
+
+article {
+    background-color: #A7BAE6;
+    padding: ;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    border-radius: 30px;
+    border: 5px dashed purple;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #AC13A6;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    border-radius: 30px;
+    border: 5px dotted red;
+}
+
+footer {
+    background-color:#A7BAE6;
+    padding: ;
+    display: flex;
+  
+}
+
+footer a {
+    margin-right: 40px ;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+main{
+    justify-content: center;
+}
+
+.article-but:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid gray;
+}
+
+article:hover{
+    background-color: white;
+    border: 5px solid violet
+}
+
+.nav-link:hover{
+    border: 5px double gray;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.button:hover{
+    border: 5px double gray;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    
+}
+
+.lpicture{
+    opacity: 0.8;
+}
+
+.lpicture:hover{
+    opacity: 1;
+}
+
+footer img:hover{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer img{
+    margin-top: 10px; 
+}
+
+footer:hover{
+    background-color: lightskyblue;
+}
+
+footer p:hover{
+    font-style: oblique
+}
