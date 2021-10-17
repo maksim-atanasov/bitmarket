@@ -158,9 +158,8 @@ footer p:hover{
     border-radius: 10px;
 }
 
-.article-but:visited{
+.article-but:hover:focus{
     background-color: gray;
     border: 5px dotted orange;
     border-radius: 10px;
 }
-    
