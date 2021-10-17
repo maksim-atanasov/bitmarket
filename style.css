@@ -157,3 +157,10 @@ footer p:hover{
 .info img{
     border-radius: 10px;
 }
+
+.article-but:visited{
+    background-color: gray;
+    border: 5px dotted orange;
+    border-radius: 10px;
+}
+    
