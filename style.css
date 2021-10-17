@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: black;
+   background-image: url(https://wallpapershome.ru/images/wallpapers/kiber-set-3840x2160-kiber-set-18684.jpg);
 }
 
 header {
@@ -152,4 +152,8 @@ footer:hover{
 
 footer p:hover{
     font-style: oblique
+}
+
+.info img{
+    border-radius: 10px;
 }
