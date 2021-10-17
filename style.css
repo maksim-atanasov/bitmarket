@@ -12,11 +12,13 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: #60c3f1b4;
     text-decoration: none;
-    padding:20px 15px 15px 15px;
+    padding:20px 15px 17px 15px;
     font-size: 24px;
     border-radius: 10px;
+    position: fixed;
+    right: 25px;
 }
 
 nav {
@@ -84,6 +86,9 @@ footer {
     background-color:#A7BAE6;
     padding: ;
     display: flex;
+    position: fixed; 
+    bottom: 0px;
+    padding-right: 2000px;
   
 }
 
@@ -162,4 +167,8 @@ footer p:hover{
     background-color: gray;
     border: 5px dotted orange;
     border-radius: 10px;
+}
+
+html{
+  height: 2100px
 }
