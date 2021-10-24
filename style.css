@@ -176,4 +176,6 @@ html{
 
 .bigimg{
   padding: 0px;
+  position: relative;
+  bottom: 0px;
 }
