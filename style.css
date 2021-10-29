@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-   background-image: url(https://wallpapershome.ru/images/wallpapers/kiber-set-3840x2160-kiber-set-18684.jpg);
+   background-image: radial-gradient(black,darkblue,black);
+  background-size: auto 10000px;
 }
 
 header {
@@ -68,7 +69,7 @@ article {
     height: 500px;
     justify-content: center;
     border-radius: 30px;
-    border: 5px dashed purple;
+    border: 5px solid black;
 }
 
 .article-but {
@@ -79,7 +80,7 @@ article {
     text-align: center;
     padding: 10px 75px 10px 75px;
     border-radius: 30px;
-    border: 5px dotted red;
+    border: 5px solid lightgray;
 }
 
 footer {
@@ -106,23 +107,26 @@ main{
 }
 
 .article-but:hover{
-    background-color: black;
+    background-image: radial-gradient(white,black);
     color: white;
     border: 5px solid gray;
 }
 
 article:hover{
     background-color: white;
-    border: 5px solid violet
+  border: 5px solid cyan;
+  box-shadow: 0 0 40px 10px cyan;
 }
 
 .nav-link:hover{
-    border: 5px double gray;
+    border: 5px solid blue;
     border-radius: 20px;
-    background-color: white;
+    background-image: linear-gradient(to right bottom, purple, blue);
     color: black;
     padding: 5px;
     display: inline-flex;
+  text-shadow: 2px 2px 3px black;
+  box-shadow: 0 3px 30px 0 blue;
 }
 
 .button:hover{
@@ -130,6 +134,7 @@ article:hover{
     border-radius: 20px;
     background-color: white;
     color: black;
+  box-shadow: 0 0 10px 3px blue;
     
 }
 
@@ -153,13 +158,13 @@ footer img{
 }
 
 footer:hover{
-    background-color: lightskyblue;
+    background-image: linear-gradient(to right top,lightskyblue,yellow);
 }
 
 footer p:hover{
-    font-style: oblique
+    text-shadow: -2px 1px blue, -5px 3px purple, -7px 5px cyan;
 }
-
+ 
 .info img{
     border-radius: 10px;
 }
