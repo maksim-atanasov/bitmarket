@@ -165,7 +165,7 @@ footer img{
 }
 
 footer:hover{
-    background-image: linear-gradient(to right, top,lightskyblue,yellow);
+    background-color: gold;
     transition: 1s linear;
 }
 
@@ -188,5 +188,3 @@ html{
     height: 100%;
   width: 100%;
 }
-
-
